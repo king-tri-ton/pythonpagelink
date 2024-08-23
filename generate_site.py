@@ -8,7 +8,7 @@ with open('config.yml', 'r') as config_file:
     config = yaml.safe_load(config_file)
 
 # Создание выходной директории
-output_dir = 'root'
+output_dir = 'output'
 os.makedirs(output_dir, exist_ok=True)
 
 # Настройка Jinja2
