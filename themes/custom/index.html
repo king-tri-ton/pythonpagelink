@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ config.meta.lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ config.meta.description }}">
+    <title>{{ config.meta.title }}</title>
+    <meta name="author" content="{{ config.meta.author }}">
+    <link rel="canonical" href="{{ config.meta.siteUrl }}">
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta property="og:title" content="{{ config.meta.title }}">
+    <meta property="og:site_name" content="{{ config.meta.title }}">
+    <meta property="og:description" content="{{ config.meta.description }}">
+    <meta property="og:locale" content="{{ config.meta.lang }}">
+    <meta name="twitter:title" content="{{ config.meta.title }}">
+    <meta name="twitter:description" content="{{ config.meta.description }}">
+</head>
+<body>
+    <header>
+        <img src="assets/img/picture.jpg" alt="Picture" class="avatar">
+        <h1>{{ config.name }}</h1>
+        <small class="bio">{{ config.bio }}</small>
+    </header>
+    <main>
+        <section class="links">
+            {% for link in config.links %}
+            <a class="link-item" href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+                <p>{{ link.name }}</p>
+            </a>
+            {% endfor %}
+        </section>
+    </main>
+    <footer>
+        <small>&copy; <span class="year"></span> {{ config.meta.author }}</small>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
