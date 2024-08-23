@@ -2,6 +2,8 @@
 
 This project provides a template and script for creating your own LinkTree (or Taplink) style landing page using Python and GitHub Pages. It allows you to generate a static webpage that displays links to your various social media profiles or other important sites.
 
+![my analog of linktree using github page](https://github.com/user-attachments/assets/5713df1f-1161-4660-9efb-cdfd53685374)
+
 ## Overview
 
 PythonPageLink is a static site generator that creates a personal link tree webpage. It uses Python and Jinja2 for generating HTML from a configuration file and can be easily deployed using GitHub Pages.
