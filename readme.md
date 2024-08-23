@@ -84,7 +84,7 @@ This command will create the `docs` folder with the generated files.
 
 ## Deploying on GitHub Pages
 
-
+![steps to create a github page](https://github.com/user-attachments/assets/1ce1a9c2-f2d5-4cec-9d4b-e5ba9453cefb)
 
 1. Create a new repository on GitHub.
 2. Upload all files, including the `docs` folder, to the repository.
@@ -96,8 +96,8 @@ Your site will now be available at `https://<username>.github.io/<repository-nam
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
 ## Contact
 
-For any questions or issues, please open an issue on the [GitHub repository](https://github.com/king-tri-ton/pythonpagelink).
+If you have any questions or suggestions, feel free to reach out to me via [telegram](https://t.me/king_triton).
