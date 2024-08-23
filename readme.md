@@ -96,6 +96,8 @@ This command will create the `docs` folder with the generated files.
 
 Your site will now be available at `https://<username>.github.io/<repository-name>/`.
 
+You can check the final result at [king-tri-ton.github.io/pythonpagelink](https://king-tri-ton.github.io/pythonpagelink/).
+
 ## License
 
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
