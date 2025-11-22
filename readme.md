@@ -46,7 +46,7 @@ PythonPageLink is a static site generator that creates a personal link tree webp
 
    ```yaml
    name: "King Triton"
-   picture: "assets/img/picture.jpg"
+   picture: "assets/img/im.jpg"
    bio: "Programmer python and php/laravel"
    meta:
      lang: "en"
@@ -62,7 +62,7 @@ PythonPageLink is a static site generator that creates a personal link tree webp
      - name: "Patreon"
        url: "https://www.patreon.com/king_triton"
      - name: "Telegram"
-       url: "https://t.me/king_triton"
+       url: "https://t.me/king_tri_ton"
      - name: "Instagram"
        url: "https://www.instagram.com/king_tri_ton"
    theme: "custom"
@@ -104,4 +104,4 @@ This project is licensed under the [MIT License](https://choosealicense.com/lice
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to me via [telegram](https://t.me/king_triton).
+If you have any questions or suggestions, feel free to reach out to me via [telegram](https://t.me/king_tri_ton).

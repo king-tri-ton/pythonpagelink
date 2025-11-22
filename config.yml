@@ -1,5 +1,5 @@
 name: "King Triton"
-picture: "assets/img/picture.jpg"
+picture: "assets/img/im.jpg"
 bio: "Programmer python and php/laravel"
 meta:
   lang: "en"
@@ -18,6 +18,8 @@ links:
     url: "https://t.me/king_triton"
   - name: "Instagram"
     url: "https://www.instagram.com/king_tri_ton"
+  - name: "Habr"
+    url: "https://habr.com/ru/users/king_tri_ton/"
   # - name: ""
   #   url: ""
 theme: "custom"
