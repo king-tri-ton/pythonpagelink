@@ -1,6 +1,3 @@
-// Jarvis Theme Script with Radar Detector
-console.log('🤖 Jarvis theme initialized');
-
 // Update copyright year
 const yearElement = document.querySelector('.year');
 if (yearElement) {
