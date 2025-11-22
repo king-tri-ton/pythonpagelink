@@ -24,4 +24,4 @@ links:
     url: "https://habr.com/ru/users/king_tri_ton/"
   # - name: ""
   #   url: ""
-theme: "custom"
+theme: "cpts-j"  # options: "cpts-j" or "custom"
