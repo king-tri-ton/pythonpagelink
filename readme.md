@@ -1,48 +1,48 @@
-# Build Your Own LinkTree with Python and GitHub Pages
+# Создайте свой собственный LinkTree (или TapLink) с помощью Python и GitHub Pages
 
-This project provides a template and script for creating your own LinkTree (or Taplink) style landing page using Python and GitHub Pages. It allows you to generate a static webpage that displays links to your various social media profiles or other important sites.
+Этот проект — простой способ собрать свою страницу в стиле LinkTree или Taplink. Вы можете сгенерировать статичный сайт, где будут ссылки на ваши соцсети и любые другие важные ресурсы. Всё создаётся через Python, а готовый результат удобно размещается на GitHub Pages.
 
 ![my analog of linktree using github page](https://github.com/user-attachments/assets/5713df1f-1161-4660-9efb-cdfd53685374)
 
-## Overview
+## Что это такое
 
-PythonPageLink is a static site generator that creates a personal link tree webpage. It uses Python and Jinja2 for generating HTML from a configuration file and can be easily deployed using GitHub Pages.
+PythonPageLink — небольшой генератор статичной страницы. Он берёт настройки из файла, подставляет их в шаблон через Jinja2 и формирует готовую личную страницу со всеми вашими ссылками. После генерации всё можно сразу заливать в GitHub Pages.
 
-## Features
+## Возможности
 
-- **Customizable Links**: Define your links and their descriptions in a YAML file.
-- **Personalization**: Customize your profile picture, bio, and site theme.
-- **Easy Deployment**: Host your site on GitHub Pages with simple setup instructions.
+* **Свои ссылки**: все ссылки и описания хранятся в YAML файле, который легко редактировать.
+* **Персонализация**: можно поменять фото, описание, оформление и тему сайта.
+* **Быстрый запуск**: GitHub Pages позволяет легко разместить сайт.
 
-## Project Structure
+## Структура проекта
 
-- **`config.yml`**: Configuration file for site details.
-- **`generate_site.py`**: Python script to generate the static site.
-- **`themes/custom/`**: Custom theme directory with assets, CSS, JavaScript, and the HTML template.
-- **`docs/`**: Output directory for generated site files.
+* **`config.yml`** — основные настройки сайта.
+* **`generate_site.py`** — скрипт генерации.
+* **`themes/custom/`** — кастомная тема, включая CSS, JS и HTML шаблон.
+* **`docs/`** — сюда попадают готовые файлы сайта.
 
-## Setup
+## Установка
 
-1. **Clone the Repository**
+1. **Клонировать репозиторий**
 
    ```bash
    git clone https://github.com/king-tri-ton/pythonpagelink.git
    cd pythonpagelink
    ```
 
-2. **Install Dependencies**
+2. **Установить зависимости**
 
-   Make sure you have Python 3 and pip installed. Install the required Python packages:
+   Убедись, что установлен Python 3 и pip.
 
    ```bash
    pip install jinja2 pyyaml
    ```
 
-## Customization
+## Настройка
 
-1. **Configure Your Page**
+1. **Изменить конфигурацию**
 
-   Edit `config.yml` to update your personal information and links. Example configuration:
+   В файле `config.yml` указываешь свои данные. Пример:
 
    ```yaml
    name: "King Triton"
@@ -68,40 +68,46 @@ PythonPageLink is a static site generator that creates a personal link tree webp
    theme: "custom"
    ```
 
-2. **Customize Your Theme**
+2. **Изменить оформление**
 
-   - **CSS**: Modify `themes/custom/assets/css/styles.css` to adjust the styling of your site.
-   - **JavaScript**: Update `themes/custom/assets/js/script.js` to add or change functionality.
-   - **HTML Template**: Edit `themes/custom/index.html` for structural changes to your webpage.
+   * В **CSS** (`themes/custom/assets/css/styles.css`) меняешь внешний вид.
+   * В **JavaScript** (`themes/custom/assets/js/script.js`) добавляешь логику.
+   * В **HTML** (`themes/custom/index.html`) редактируешь структуру страницы.
 
-## Generate Your Site
+## Генерация сайта
 
-After customization, generate your static site by running:
+После правок запускаешь:
 
 ```bash
 python generate_site.py
 ```
 
-This command will create the `docs` folder with the generated files.
+Скрипт создаст папку `docs` с полностью готовым сайтом.
 
-## Deploying on GitHub Pages
+## Публикация на GitHub Pages
 
 ![steps to create a github page](https://github.com/user-attachments/assets/1ce1a9c2-f2d5-4cec-9d4b-e5ba9453cefb)
 
-1. Create a new repository on GitHub.
-2. Upload all files, including the `docs` folder, to the repository.
-3. Go to the repository’s Settings section.
-4. In the Pages section, select the `master` branch and the `/docs` folder as the source.
-5. Save changes and wait for GitHub Pages to deploy your site.
+1. Создай новый репозиторий.
+2. Загрузите в него проект вместе с папкой `docs`.
+3. Открой настройки репозитория.
+4. В разделе Pages выбери ветку `master` и папку `/docs`.
+5. Сохрани и подожди пару минут.
 
-Your site will now be available at `https://<username>.github.io/<repository-name>/`.
+После этого сайт будет доступен по адресу:
 
-You can check the final result at [king-tri-ton.github.io/pythonpagelink](https://king-tri-ton.github.io/pythonpagelink/).
+```
+https://<username>.github.io/<repository-name>/
+```
 
-## License
+Готовый пример можно посмотреть здесь:
+[https://king-tri-ton.github.io/pythonpagelink/](https://king-tri-ton.github.io/pythonpagelink/)
 
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+## Лицензия
 
-## Contact
+Проект распространяется по лицензии MIT.
 
-If you have any questions or suggestions, feel free to reach out to me via [telegram](https://t.me/king_tri_ton).
+## Контакты
+
+Если есть вопросы или идеи — пиши в телеграм:
+[https://t.me/king_tri_ton](https://t.me/king_tri_ton)
