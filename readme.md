@@ -143,6 +143,7 @@ https://<username>.github.io/<repository-name>/
 
 - Telegram: [@king_tri_ton](https://t.me/king_tri_ton)
 - Email: mdolmatov99@gmail.com
+- или создавайте issues
 
 ---
 
